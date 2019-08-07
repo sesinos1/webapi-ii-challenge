@@ -87,5 +87,9 @@ router.get('/:id/comments', (req, res) => {
 }
 );
 
+router.delete('/api/posts/:id', (req, res) => {
+    
+})
+
 
 module.exports = router;  
